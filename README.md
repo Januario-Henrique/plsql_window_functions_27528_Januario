@@ -134,3 +134,27 @@ Date: 02/08/2026
 
 "All sources were properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation."
 
+## 📚 References
+
+- Oracle Corporation. (2024). *Oracle Database SQL Language Reference, 19c*. Oracle Documentation.  
+  https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/
+
+- Oracle Corporation. (2023). *Analytic Functions*. Oracle Database Data Warehousing Guide.  
+  https://docs.oracle.com/en/database/oracle/oracle-database/19/dwhsg/sql-analysis-reporting-data-warehouses.html
+
+- Beaulieu, A. (2020). *Learning SQL: Generate, Manipulate, and Retrieve Data* (3rd ed.). O'Reilly Media.
+
+- Mozilla Developer Network. (2024). *SQL Joins*. MDN Web Docs.  
+  https://developer.mozilla.org/en-US/docs/Web/SQL/Joins
+
+- W3Schools. (2024). *SQL Window Functions*.  
+  https://www.w3schools.com/sql/sql_windowfunctions.asp
+
+- Mode Analytics. (2023). *SQL Window Functions Tutorial*.  
+  https://mode.com/sql-tutorial/sql-window-functions/
+
+- Oracle Base. (2023). *Analytic Functions in Oracle Database*.  
+  https://oracle-base.com/articles/misc/analytic-functions
+
+- Stack Overflow. (2024). *Oracle SQL Window Functions Community Discussions*.  
+  https://stackoverflow.com/questions/tagged/oracle+analytic-functions
