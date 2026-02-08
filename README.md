@@ -28,32 +28,10 @@ Our company needs to analyze customer purchasing behavior and product performanc
 
 ## 🗄️ Database Schema Design
 
-### ER Diagram
-┌─────────────┐        ┌─────────────┐        ┌─────────────┐
-│   REGIONS   │        │  CUSTOMERS  │        │ TRANSACTIONS│
-│             │        │             │        │             │
-│    region_id├───────┼│region_id    │        │transaction_id
-│             │        │             │        │             │
-└─────────────┘        │ customer_id ├───────┼│customer_id  │
-│             │        │             │
-│             │        │ product_id  │
-└─────────────┘        │             │
-└──────┬──────┘
-│
-│
-┌──────┴──────┐
-│  PRODUCTS   │
-│             │
-│  product_id ├────┐
-│             │    │
-└─────────────┘    │
-│
-│
-┌─────────────────────────────────────────────┘
-│
-ONE REGION has MANY CUSTOMERS
-ONE CUSTOMER makes MANY TRANSACTIONS  
-ONE PRODUCT appears in MANY TRANSACTIONS
+## Database Schema
+![img.png](img.png)
+The database schema is designed to support sales analysis across regions, customers, products, and transactions.
+The ER diagram below illustrates the relationships between the main entities.
 
 
 ### Table Structures
@@ -103,6 +81,7 @@ CREATE TABLE transactions (
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
     FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
+```
 
 # Academic Integrity Statement
 
@@ -122,9 +101,9 @@ I, Januario Henrique, hereby declare that:
 6. **Compliance:** This work complies with all academic integrity policies of [Your University Name].
 
 ## Verification
-- Database Connection: Oracle Database 19c
-- User: [Your Database Username]
-- Timestamp: [Date and Time of Submission]
+- Database Connection: Oracle Database 21c
+- User: SalesDB
+- Timestamp: Sunday, February 8th, 2026, 11:59 PM
 - All queries tested and verified for correctness
 
 ## Signature
